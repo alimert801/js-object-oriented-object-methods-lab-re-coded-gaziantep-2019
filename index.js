@@ -15,6 +15,6 @@ function BoardMember (name,homeState,training) {
     console.log('You will see great things from Scuber.')
   }
   this.sayHi = function () {
-    console.log('Hi, my name is '+ name + '. I am from '+homeState+', and I was trained in '+ training)
+    return('Hi, my name is '+ name + '. I am from '+homeState+', and I was trained in '+ training)
   }
 }
