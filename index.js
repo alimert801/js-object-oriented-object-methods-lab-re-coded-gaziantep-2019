@@ -12,6 +12,6 @@ function BoardMember (name,homeState,training) {
     console.log ('I like to help people.')
   }
   this.releasePressStatement = function() {
-    this.
+    console.log('')
   }
 }
