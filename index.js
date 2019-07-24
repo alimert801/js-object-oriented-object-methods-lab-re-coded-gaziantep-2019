@@ -1,6 +1,6 @@
 function BoardMember (name,homeState,training) {
   this.name = name;
-  this.homeState= home;
+  this.homeState= homeState;
   this.training = training;
   this.veto = function () {
     console.log('No, I must disagree');
@@ -15,6 +15,6 @@ function BoardMember (name,homeState,training) {
     console.log('You will see great things from Scuber.')
   }
   this.sayHi = function () {
-    console.log()
+    console.log('Hi, my name is '+ name + '. I am from '+homeState+', and I was trained in '+ training)
   }
 }
